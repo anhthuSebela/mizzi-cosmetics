@@ -79,7 +79,7 @@
 			color: white;
 			font-size: 18px;
 			font-weight: 500;
-			padding: 12px 150px;
+			padding: 12px 134px;
 			border-radius: 0px;
 			cursor: pointer;
 			border: 0;
