@@ -1,6 +1,6 @@
-<html lang="en">
+<body>
 
-<head>
+
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -79,10 +79,11 @@
 			color: white;
 			font-size: 18px;
 			font-weight: 500;
-			padding: 12px 134px;
+			padding: 12px 130px;
 			border-radius: 0px;
 			cursor: pointer;
 			border: 0;
+
 		}
 
 		.close-btn:active {
@@ -103,15 +104,14 @@
  			margin-bottom: 20px;
 		}
 	</style>
-</head>
 
-<body>
+
+
 	<button class="trybtn" onclick="showIframe()">Try It On</button>
 	<p></p>
 	<div id="iframe-container">
 		<button class="close-btn" onclick="hideIframe()">X</button>
-		<iframe id="video-frame"
-			allow="accelerometer; autoplay; clipboard-write; camera; microphone; picture-in-picture"></iframe>
+		<iframe id="video-frame" allow="accelerometer; autoplay; clipboard-write; camera; microphone; picture-in-picture"></iframe>
 	</div>
 	<script>
 		const makeUpFilterUrl = 'mizzicosmetics-product-sweethibiscus-lipbalm.azurewebsites.net' // Update this url as required.
@@ -135,6 +135,6 @@
 		});
 
 	</script>
-</body>
 
-</html>
+
+</body>
