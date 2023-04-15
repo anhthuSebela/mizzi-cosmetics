@@ -114,7 +114,7 @@
 		<iframe id="video-frame" allow="accelerometer; autoplay; clipboard-write; camera; microphone; picture-in-picture"></iframe>
 	</div>
 	<script>
-		const makeUpFilterUrl = 'mizzicosmetics-product-sweethibiscus-lipbalm.azurewebsites.net' // Update this url as required.
+		const makeUpFilterUrl = 'https://mizzicosmetics-product-sweethibiscus-lipbalm.azurewebsites.net/' // Update this url as required.
 		function showIframe() {
 			console.log('showIframe called')
 			document.getElementById('video-frame').src = makeUpFilterUrl;
